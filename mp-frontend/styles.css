@@ -1,0 +1,105 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    transform: translate(15%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.overlay h4 {
+    margin: 0; 
+    font-weight: bold;
+}
+
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0;
+    background-color: #f0e6d2;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4b2e83; /* Royal purple color */
+}
+
+.features-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features-list li {
+    background-color: #ece8f6;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 5px solid #b35b00;; /* Royal purple color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #614c8b; /* Royal purple color */
+    position: fixed;
+    bottom: 0;
+    width: 95%;
+    border-radius :  20px 20px 0 0;
+}
+
+.footer-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.footer-icon.home{
+    content: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpToiq1IGChAGKq7qXRHs9QzNS1sAShPeUmQ&s'); /* Placeholder for home icon */
+}
+
+.footer-icon.explore {
+    content: url('https://img.freepik.com/premium-vector/chat-bot-logo-virtual-assistant-bot-icon-logo-robot-head-with-headphones_843540-99.jpg'); /* Placeholder for explore icon */
+}
+
+.footer-icon.assistant{
+    content: url('https://cdn-icons-png.flaticon.com/512/149/149071.png');
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .overlay h1 {
+        font-size: 1.8em;
+    }
+
+    .content {
+        padding: 15px;
+    }
+}
