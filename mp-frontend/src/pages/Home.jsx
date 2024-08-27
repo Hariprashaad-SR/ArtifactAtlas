@@ -1,23 +1,22 @@
 import React from "react";
-import "./styles.css"; 
-import {Link} from 'react-router-dom';
-
+import { Link } from 'react-router-dom';
+import './styles.css';  // Make sure this path is correct
 
 function Home() {
   return (
-    <div className="App">
-      <header className="header">
+    <div className="home">
+      <header className="home__header">
         <img
           src="/museum-banner.png"
           alt="Museum Background"
-          className="header-image"
+          className="home__header-image"
         />
-        <div className="overlay">
-          <h4>Welcome to Museum Ticket Booker</h4>
+        <div className="home__overlay">
+          <h4 className="home__overlay-heading">Welcome to Museum Ticket Booker</h4>
         </div>
       </header>
 
-      <main className="content">
+      <main className="home__content">
         <p>
           Experience hassle-free museum visits with our smart, multilingual
           ticket booking assistant.
@@ -35,51 +34,50 @@ function Home() {
           convenient and eco-friendly.
         </p>
 
-        <h2>Key Features:</h2>
-        <ul className="features-list">
-          <li>
+        <h2 className="home__section-title">Key Features:</h2>
+        <ul className="home__features-list">
+          <li className="home__feature-item">
             <strong>24/7 Booking:</strong> No more waiting! Book your tickets
             anytime, even during off-hours.
           </li>
-          <li>
+          <li className="home__feature-item">
             <strong>Instant Information:</strong> Get quick answers about ticket
             prices, exhibits, and more.
           </li>
-          <li>
+          <li className="home__feature-item">
             <strong>Multilingual Support:</strong> Choose your preferred
             language for a personalized experience.
           </li>
-          <li>
+          <li className="home__feature-item">
             <strong>Special Assistance:</strong> Accessibility options tailored
             to your needs for an inclusive visit.
           </li>
-          <li>
+          <li className="home__feature-item">
             <strong>Secure Payments:</strong> Safe and easy transactions with
             integrated payment gateways.
           </li>
-          <li>
+          <li className="home__feature-item">
             <strong>Environment-Friendly:</strong> Go paperless with digital
             tickets and confirmations.
           </li>
         </ul>
 
-        <p>
+        <p class = 'home__center-para'>
           Explore the wonders of the museum, engage with history, art, and
           culture—all made easy with Museum Ticket Booker!
         </p>
         <br/>
-      <br/>
-      <br/>
+        <br/>
+        <br/>
       </main>
-     
 
-      <footer className="footer">
-        <div className="footer-icon home"></div>
+      <footer className="home__footer">
+        <div className="home__footer-icon home__footer-icon--home"></div>
         <Link to="/assistant">
-          <div className="footer-icon explore"></div>
+          <div className="home__footer-icon home__footer-icon--explore"></div>
         </Link>
-        <div className="footer-icon explore"></div>
-        <div className="footer-icon assistant"></div>
+        <div className="home__footer-icon home__footer-icon--explore"></div>
+        <div className="home__footer-icon home__footer-icon--assistant"></div>
       </footer>
     </div>
   );

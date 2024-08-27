@@ -1,22 +1,25 @@
-/* styles.css */
-body {
-    margin: 0;
+/* Block for the whole assistant component */
+.assistant {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f9;
     color: #333;
+    margin: 0;
 }
 
-.header {
+/* Block Element for header */
+.assistant__header {
     position: relative;
     text-align: center;
 }
 
-.header-image {
+/* Block Element for header image */
+.assistant__header-image {
     width: 100%;
     height: auto;
 }
 
-.user-icon {
+/* Block Element for user icon */
+.assistant__user-icon {
     position: absolute;
     top: 20px;
     right: 20px;
@@ -25,21 +28,24 @@ body {
     padding: 5px;
 }
 
-.user-icon img {
+/* Element within user icon for image */
+.assistant__user-icon img {
     width: 40px;
     height: 40px;
 }
 
-.content {
+/* Block Element for content */
+.assistant__content {
     padding: 20px;
     max-width: 800px;
-    margin : 0;
+    margin: 0 auto;
     background-color: #f0e6d2;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
-.cta-banner {
+/* Block Element for call-to-action banner */
+.assistant__cta-banner {
     background-color: #b35b00;
     color: white;
     padding: 10px;
@@ -49,7 +55,8 @@ body {
     font-weight: bold;
 }
 
-.booking-option {
+/* Block Element for booking option */
+.assistant__booking-option {
     margin-bottom: 30px;
     padding: 20px;
     background-color: #fff;
@@ -59,11 +66,13 @@ body {
     position: relative;
 }
 
-.booking-option h3 {
+/* Element within booking option for heading */
+.assistant__booking-option-heading {
     color: #b35b00;
 }
 
-.select-button {
+/* Block Element for select button */
+.assistant__select-button {
     display: inline-block;
     background-color: #4b2e83;
     color: white;
@@ -75,11 +84,13 @@ body {
     cursor: pointer;
 }
 
-.select-button span {
+/* Element within select button for span */
+.assistant__select-button-text {
     margin-left: 5px;
 }
 
-.icon {
+/* Block Element for icon */
+.assistant__icon {
     width: 50px;
     height: auto;
     position: absolute;
@@ -87,14 +98,16 @@ body {
     top: 20px;
 }
 
-.museum-carousel {
+/* Block Element for museum carousel */
+.assistant__museum-carousel {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 20px 0;
 }
 
-.carousel-button {
+/* Block Element for carousel button */
+.assistant__carousel-button {
     background-color: #4b2e83;
     color: white;
     border: none;
@@ -103,19 +116,22 @@ body {
     border-radius: 5px;
 }
 
-.museum-image {
+/* Block Element for museum image container */
+.assistant__museum-image {
     position: relative;
     margin: 0 20px;
 }
 
-.museum-image img {
+/* Element within museum image for img tag */
+.assistant__museum-image img {
     width: 300px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.museum-label {
+/* Block Element for museum label */
+.assistant__museum-label {
     position: absolute;
     bottom: 10px;
     left: 50%;
@@ -127,19 +143,21 @@ body {
     font-weight: bold;
 }
 
-.footer {
+/* Block Element for footer */
+.assistant__footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
-    background-color: #4b2e83; /* Royal purple color */
+    background-color: #4b2e83;
     position: fixed;
     bottom: 0;
     width: 95%;
-    border-radius :  20px 20px 0 0;
+    border-radius: 20px 20px 0 0;
 }
 
-.footer-icon {
+/* Block Element for footer icons */
+.assistant__footer-icon {
     width: 40px;
     height: 40px;
     background-color: #fff;
@@ -151,35 +169,36 @@ body {
     cursor: pointer;
 }
 
-.footer-icon.home{
+/* Modifier for specific icon types */
+.assistant__footer-icon--home {
     content: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpToiq1IGChAGKq7qXRHs9QzNS1sAShPeUmQ&s'); /* Placeholder for home icon */
 }
 
-.footer-icon.explore {
+.assistant__footer-icon--explore {
     content: url('https://img.freepik.com/premium-vector/chat-bot-logo-virtual-assistant-bot-icon-logo-robot-head-with-headphones_843540-99.jpg'); /* Placeholder for explore icon */
 }
 
-.footer-icon.assistant{
+.assistant__footer-icon--assistant {
     content: url('https://cdn-icons-png.flaticon.com/512/149/149071.png');
 }
 
 /* Responsive Design */
 @media (max-width: 600px) {
-    .content {
+    .assistant__content {
         padding: 15px;
     }
 
-    .cta-banner {
+    .assistant__cta-banner {
         font-size: 1em;
     }
 
-    .icon {
+    .assistant__icon {
         width: 40px;
         right: 10px;
         top: 10px;
     }
 
-    .museum-image img {
+    .assistant__museum-image img {
         width: 100%;
         height: auto;
     }
