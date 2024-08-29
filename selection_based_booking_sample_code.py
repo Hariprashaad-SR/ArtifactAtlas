@@ -357,7 +357,7 @@ def main():
             st.info(f"BOT: {translate('Continue the next Steps to get your tickets',lang)}")
             museum = st.selectbox(translate("Select a museum:",lang), museum_list)
             if museum != "---":
-                st.info(f"BOT: {translate('You have selected ',lang)}"+museum)
+                st.info(f"BOT: {translate('You have selected',lang)}"+" "+museum)
                 adult_tickets = st.number_input(translate("Number of adult tickets (₹15 each):",lang), min_value=0, step=1)
                 adult_bill = adult_tickets * 15
                 adultbutton=st.checkbox(translate("Adult Ticket Count is Completed",lang))
