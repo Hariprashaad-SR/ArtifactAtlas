@@ -5,7 +5,7 @@ import './styles.css';  // Make sure this path is correct
 function Home() {
   return (
     <div className="home">
-      <header className="home__header">
+      <header className="home__header" style = {{margin : '0 0 0 0 '}}>
         <img
           src="/museum-banner.png"
           alt="Museum Background"
@@ -72,12 +72,12 @@ function Home() {
       </main>
 
       <footer className="home__footer">
-        <div className="home__footer-icon home__footer-icon--home"></div>
+        <Link to = '/' ><div className="home__footer-icon home__footer-icon--home"></div></Link>
         <Link to="/assistant">
-          <div className="home__footer-icon home__footer-icon--explore"></div>
+          <div className="home__footer-icon home__footer-icon--assistant"></div>
         </Link>
-        <div className="home__footer-icon home__footer-icon--explore"></div>
-        <div className="home__footer-icon home__footer-icon--assistant"></div>
+        <div className="home__footer-icon home__footer-icon--dashboard"></div>
+        <div className="home__footer-icon home__footer-icon--profile"></div>
       </footer>
     </div>
   );

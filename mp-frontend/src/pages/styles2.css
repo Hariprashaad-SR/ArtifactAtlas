@@ -174,11 +174,15 @@
     content: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpToiq1IGChAGKq7qXRHs9QzNS1sAShPeUmQ&s'); /* Placeholder for home icon */
 }
 
-.assistant__footer-icon--explore {
+.assistant__footer-icon--assistant {
     content: url('https://img.freepik.com/premium-vector/chat-bot-logo-virtual-assistant-bot-icon-logo-robot-head-with-headphones_843540-99.jpg'); /* Placeholder for explore icon */
 }
 
-.assistant__footer-icon--assistant {
+.assistant__footer-icon--dashboard {
+    content: url('https://thumbs.dreamstime.com/b/dashboard-icon-vector-sign-symbol-isolated-white-background-logo-concept-your-web-mobile-app-design-134070079.jpg'); 
+}
+
+.assistant__footer-icon--profile {
     content: url('https://cdn-icons-png.flaticon.com/512/149/149071.png');
 }
 

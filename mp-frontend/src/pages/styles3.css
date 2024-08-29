@@ -233,3 +233,9 @@ h2 {
         padding: 15px;
     }
 }
+
+
+.streamlit{
+    height : 50rem;
+    border-radius : 20px;
+}

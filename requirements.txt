@@ -1,0 +1,10 @@
+Pyttsx3
+SpeechRecognition
+ffmpeg
+pyaudio
+noisereduce
+wave
+whisper
+google-generativeai
+numpy
+pydub

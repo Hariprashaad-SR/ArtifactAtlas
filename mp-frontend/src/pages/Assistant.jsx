@@ -46,9 +46,9 @@ function Assistant() {
 
       <div className="assistant__footer">
         <Link to='/'><div className="assistant__footer-icon assistant__footer-icon--home"></div></Link>
-        <div className="assistant__footer-icon assistant__footer-icon--explore"></div>
-        <div className="assistant__footer-icon assistant__footer-icon--explore"></div>
         <div className="assistant__footer-icon assistant__footer-icon--assistant"></div>
+        <div className="assistant__footer-icon assistant__footer-icon--dashboard"></div>
+        <div className="assistant__footer-icon assistant__footer-icon--profile"></div>
       </div>
     </>
   );
