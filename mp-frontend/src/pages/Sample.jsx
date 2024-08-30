@@ -3,7 +3,6 @@ import "./styles3.css";
 import { Link } from "react-router-dom";
 
 function TicketBookingBot() {
-  // Define all questions in an array
   const questions = [
     {
       id: 1,
@@ -96,13 +95,11 @@ function TicketBookingBot() {
     },
   ];
 
-  // Initialize state
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [responses, setResponses] = useState({});
   const [totalBill, setTotalBill] = useState(0);
   const [conversation, setConversation] = useState([]);
 
-  // Handle user responses
   const handleResponse = (response) => {
     const currentQuestion = questions[currentQuestionIndex];
 
@@ -113,7 +110,6 @@ function TicketBookingBot() {
     };
     setResponses(updatedResponses);
 
-    // Add to conversation history
     setConversation([
       ...conversation,
       { role: "bot", message: currentQuestion.question },

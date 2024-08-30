@@ -24,7 +24,7 @@ function Selection2() {
     </header>
     <div className="streamlit">
       <iframe
-        src=" http://192.168.233.217:8501"
+        src="http://192.168.224.217:8501"
         width="99%"
         height="100%"
         title="Streamlit App"

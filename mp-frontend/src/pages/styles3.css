@@ -212,11 +212,11 @@ h2 {
 } */
 
 .footer-icon.home {
-    content: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpToiq1IGChAGKq7qXRHs9QzNS1sAShPeUmQ&s'); /* Placeholder for home icon */
+    content: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpToiq1IGChAGKq7qXRHs9QzNS1sAShPeUmQ&s');
 }
 
 .footer-icon.explore {
-    content: url('https://img.freepik.com/premium-vector/chat-bot-logo-virtual-assistant-bot-icon-logo-robot-head-with-headphones_843540-99.jpg'); /* Placeholder for explore icon */
+    content: url('https://img.freepik.com/premium-vector/chat-bot-logo-virtual-assistant-bot-icon-logo-robot-head-with-headphones_843540-99.jpg'); 
 }
 
 .footer-icon.assistant{

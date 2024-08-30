@@ -663,7 +663,7 @@ def main():
                                     elif payment==translate("No",lang):
                                         st.warning(f"BOT: {translate('Booking not completed.',lang)}")
                         st.info(f"BOT: "+f"{translate('Total bill amount',lang)}"+": ₹"+f"{total_bill}")
-                        payment_url = "http://192.168.233.217:5173/assistant/payment"  
+                        payment_url = "http://192.168.224.217:5173/assistant/payment"  
                         st.markdown(f'[Proceed to Ticket billing]({payment_url})', unsafe_allow_html=True)
         elif booking_option == translate("No",lang):
             st.info(f"BOT: {translate('Thank you for visiting! Please reach out when you are ready to book.',lang)}")

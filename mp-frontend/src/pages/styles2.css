@@ -6,19 +6,16 @@
     margin: 0;
 }
 
-/* Block Element for header */
 .assistant__header {
     position: relative;
     text-align: center;
 }
 
-/* Block Element for header image */
 .assistant__header-image {
     width: 100%;
     height: auto;
 }
 
-/* Block Element for user icon */
 .assistant__user-icon {
     position: absolute;
     top: 20px;
@@ -28,13 +25,11 @@
     padding: 5px;
 }
 
-/* Element within user icon for image */
 .assistant__user-icon img {
     width: 40px;
     height: 40px;
 }
 
-/* Block Element for content */
 .assistant__content {
     padding: 20px;
     max-width: 800px;
@@ -44,7 +39,6 @@
     text-align: center;
 }
 
-/* Block Element for call-to-action banner */
 .assistant__cta-banner {
     background-color: #b35b00;
     color: white;
@@ -55,7 +49,6 @@
     font-weight: bold;
 }
 
-/* Block Element for booking option */
 .assistant__booking-option {
     margin-bottom: 30px;
     padding: 20px;
@@ -66,12 +59,10 @@
     position: relative;
 }
 
-/* Element within booking option for heading */
 .assistant__booking-option-heading {
     color: #b35b00;
 }
 
-/* Block Element for select button */
 .assistant__select-button {
     display: inline-block;
     background-color: #4b2e83;
@@ -84,12 +75,10 @@
     cursor: pointer;
 }
 
-/* Element within select button for span */
 .assistant__select-button-text {
     margin-left: 5px;
 }
 
-/* Block Element for icon */
 .assistant__icon {
     width: 50px;
     height: auto;
@@ -98,7 +87,6 @@
     top: 20px;
 }
 
-/* Block Element for museum carousel */
 .assistant__museum-carousel {
     display: flex;
     align-items: center;
@@ -106,7 +94,6 @@
     margin: 20px 0;
 }
 
-/* Block Element for carousel button */
 .assistant__carousel-button {
     background-color: #4b2e83;
     color: white;
@@ -116,13 +103,11 @@
     border-radius: 5px;
 }
 
-/* Block Element for museum image container */
 .assistant__museum-image {
     position: relative;
     margin: 0 20px;
 }
 
-/* Element within museum image for img tag */
 .assistant__museum-image img {
     width: 300px;
     height: auto;
@@ -130,7 +115,6 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Block Element for museum label */
 .assistant__museum-label {
     position: absolute;
     bottom: 10px;
@@ -143,7 +127,6 @@
     font-weight: bold;
 }
 
-/* Block Element for footer */
 .assistant__footer {
     display: flex;
     justify-content: space-around;
@@ -156,7 +139,6 @@
     border-radius: 20px 20px 0 0;
 }
 
-/* Block Element for footer icons */
 .assistant__footer-icon {
     width: 40px;
     height: 40px;
@@ -169,13 +151,12 @@
     cursor: pointer;
 }
 
-/* Modifier for specific icon types */
 .assistant__footer-icon--home {
-    content: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpToiq1IGChAGKq7qXRHs9QzNS1sAShPeUmQ&s'); /* Placeholder for home icon */
+    content: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpToiq1IGChAGKq7qXRHs9QzNS1sAShPeUmQ&s'); 
 }
 
 .assistant__footer-icon--assistant {
-    content: url('https://img.freepik.com/premium-vector/chat-bot-logo-virtual-assistant-bot-icon-logo-robot-head-with-headphones_843540-99.jpg'); /* Placeholder for explore icon */
+    content: url('https://img.freepik.com/premium-vector/chat-bot-logo-virtual-assistant-bot-icon-logo-robot-head-with-headphones_843540-99.jpg'); 
 }
 
 .assistant__footer-icon--dashboard {
@@ -186,7 +167,6 @@
     content: url('https://cdn-icons-png.flaticon.com/512/149/149071.png');
 }
 
-/* Responsive Design */
 @media (max-width: 600px) {
     .assistant__content {
         padding: 15px;
