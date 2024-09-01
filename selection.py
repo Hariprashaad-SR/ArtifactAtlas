@@ -756,7 +756,7 @@ def translate(text, lang):
             "Select a museum:": "ఒక మ్యూజియం ఎంచుకోండి:",
             "You have selected": "మీరు ఎంచుకున్నారు",
             "Number of adult tickets (₹15 each):": "వయోజన టిక్కెట్ల సంఖ్య (₹15 ఒక్కొక్కటికి):",
-            "Adult Ticket Count is Completed": "వయోజన టిక్కెట్ల సంఖ్య పూర్తయింది",
+            "Adult Ticket Count is Completed": "మీరు అడల్ట్ టికెట్ కౌంట్ పూర్తి చేసారు",
             "You need": "మీకు అవసరం",
             "number of Adult Tickets": "వయోజన టిక్కెట్ల సంఖ్య",
             "Number of children tickets (₹5 each):": "పిల్లల టిక్కెట్ల సంఖ్య (₹5 ఒక్కొక్కటికి):",
