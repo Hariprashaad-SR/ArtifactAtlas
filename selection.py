@@ -505,9 +505,7 @@ def translate(text, lang):
             "Yes": "അതെ",
             "No": "ഇല്ല",
             "Continue the next Steps to get your tickets": "നിങ്ങളുടെ ടിക്കറ്റ് ലഭിക്കാൻ അടുത്ത ഘട്ടങ്ങൾ തുടരുക",
-            "You Preferred ": "നിങ്ങൾ തിരഞ്ഞെടുത്തത്
-            
-            ",
+            "You Preferred ": "നിങ്ങൾ തിരഞ്ഞെടുത്തത്",
             "Select a museum:": "ഒരു മ്യൂസിയം തിരഞ്ഞെടുക്കുക:",
             "You have selected": "നിങ്ങൾ തിരഞ്ഞെടുക്കിയിരിക്കുന്നു",
             "Number of adult tickets (₹15 each):": "വയോജന ടിക്കറ്റുകളുടെ എണ്ണം (₹15 ഓരോ ടിക്കറ്റിനും):",
