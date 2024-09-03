@@ -9,10 +9,10 @@ import whisper
 import os
 import google.generativeai as genai
 
-AudioSegment.converter ='C:\\Users\\navab\\Downloads\\SIH-Musuem\\ffmpeg'
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyAQ5wyvY_UFB0R5fO_iZG3-ZcERW6brT08'
+AudioSegment.converter ='C:\\Users\\Downloads\\SIH-Musuem\\ffmpeg'
+os.environ['GOOGLE_API_KEY'] = 'YOUR_API_KEY'
 llm = genai.GenerativeModel(model_name='gemini-pro')
-genai.configure(api_key = 'AIzaSyBo8kIw9YzdcB4cLgx0sKs1qnfndY_7Lmc')
+genai.configure(api_key = 'YOUR_API_KEY')
 listener = sr.Recognizer()
 command = None
 
